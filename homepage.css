@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+*{
+  margin:0;
+  padding:0;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  border:10px solid #32aced;
+}
+
+.navbar {
+  background-color: #32aced;
+  overflow: hidden;
+   padding: 10px; 
+}
+
+.nav-heading {
+  text-align: center;
+  font-family: "Bree Serif";
+  font-size: 40px;
+  color: #ffffffe7;
+}
+.nav-links {
+  list-style: none;
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+.nav-links li {
+  display: inline;
+}
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 14px 20px;
+
+  display: inline-block;
+}
+
+.nav-links li a:hover {
+  background-color: #575757;
+}
+.main{
+  margin-top:70px;
+}
+.image {
+  height: 85px;
+  width: 85px;
+}
+#languageSwitcher{
+  /* position: absolute;
+  right:0px;
+  top:8.5rem; */
+  background-color: transparent;
+  border:1px solid white;
+  border-radius: 5px;
+  color:white;
+  
+
+} 
+#languageSwitcher:active{
+  border:1px solid white;
+}
+#languageSwitcher::after {
+  content: "▼"; /* Arrow symbol */
+  color: white;
+  padding-left: 5px;
+}
+
+/* Styling for the options */
+#languageSwitcher option {
+  background-color: white; /* Background color for options */
+  color: black; /* Text color for options */
+}
+
+
+.bg-container {
+  background-color: #32aced;
+  background-size: cover;
+  height: 100vh;
+  padding: 15px;
+}
+
+.main-container {
+  background-color: #d0ebff;
+  height: 98vh;
+  padding: 5px;
+  border-radius: 8px;
+}
+.contain{
+  background-color: #d0ebff;
+}
+.card-container {
+  height: fit-content;
+  width: auto;
+  background-color:#d0ebff;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 10vh;
+
+}
+.w-100 {
+  width: 1000px !important;
+  height:75vh;
+}
+mark.white{
+  color:#ffffff;
+  background:none;
+  font-weight:bold;
+  font-size:40px;
+}
+
+mark.red {
+  color:#ff0000;
+  background:none;
+  font-weight:bold;
+  font-size:40px;
+}
+.whitee{
+  color:#ffffff;
+  background:none;
+  font-size:15px;
+}
+.cards {
+   max-width: 1500px; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+  gap:10vmin;
+  font-family: sans-serif;
+  padding-top: 0px;
+   margin:10px;
+}
+
+.cards * {
+  box-sizing: border-box;
+}
+
+ .card{
+  width:55vmin;
+  height:27rem;
+  gap:10px;
+  border:20px solid #32aced;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  /* display:flex;
+  flex-wrap: wrap;
+  position: relative;
+  left:100px; */
+
+} 
+.card__image {
+  width:47vmin;
+  height: 30vh;
+  object-fit:cover;;
+ 
+}
+
+.card__content {
+  line-height: 1.5;
+  font-size: 0.9em;
+  padding: 15px;
+  background: #fafafa;
+}
+
+.heading-container{
+  font-size:16px;
+  color:#575757e2;
+  font-family:"Roboto";
+  font-weight:bold;
+}
+.paragraph-container{
+  font-size:10px;
+  color:#111010e2;
+  font-family:"Roboto";
+  padding:5px;
+}
+/* Center the countdown section */
+.countdown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ margin: 5px;
+ margin-top: 50px;
+}
+
+/* Styling for the countdown heading and text */
+.countdown h1 {
+  color: #32aced;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.countdown p {
+  color: #333;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.counter {
+  font-size: 3em;
+  color: #28a745;
+  font-weight: bold;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .countdown {
+      width: 100%; /* Full width on smaller screens */
+      padding: 15px;
+  }
+  .countdown h1 {
+    font-size: 2em;
+}
+
+.countdown p {
+    font-size: 1em;
+}
+
+
+  .counter {
+      font-size: 2em;
+  }}
+  .interactive-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.interactive-button .btn {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #007bff;
+    color: white;
+    font-size: 24px;
+    transition: all 0.3s ease;
+    border-color: darkblue;
+    border-width:3px;
+}
+
+.interactive-button .btn:hover {
+    width: 90px;
+    height: 90px;
+    font-size: 28px;
+}
+
+

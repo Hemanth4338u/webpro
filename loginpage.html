@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="loginpage.css" />
+    <link rel="stylesheet" href="styles.css">
+    <script src="languageSwitcher.js"></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div>
+        <img src="image.png" class="image" />
+      </div>
+      <div class="nav-heading d-flex flex-row justify-content-center" data-translate="welcome_message">
+        OrganXchange
+      </div>
+      <ul class="nav-links">
+        <li><a href="homepage.html" data-translate="home">Home</a></li>
+        <li><a href="aboutus.html" data-translate="about_us">About</a></li>
+        <li><a href="faqs.html" data-translate="faqs">FAQs</a></li>
+        <li><a href="contact.html" data-translate="contact_us">Contact</a></li>
+        <li><a href="legalinformation.html" data-translate="legal_information">Legal Information</a></li>
+        <li><a href="register.html" data-translate="register">Register</a></li>
+      </ul>
+      <select id="languageSwitcher" onchange="changeLanguage()">
+        <option value="en">English</option>
+        <option value="te">Telugu</option>
+        <option value="hi">Hindi</option>
+        <option value="ta">Tamil</option>
+        <option value="kn">Kannada</option>
+        <option value="ml">Malayalam</option>
+      </select>
+    </nav>
+    <section>
+      <div class="sign-in">
+        <h1 data-translate="login_heading"><b>Login</b></h1>
+        <input type="email" name="email" placeholder="Email or Mobile number" required data-translate="email_placeholder">
+        <input type="password" name="password" placeholder="Password" required minlength="6" data-translate="password_placeholder">
+        <input type="button" value="Sign In" data-translate="sign_in">
+        <p data-translate="or">OR</p>
+        <a href="" data-translate="forgot_password">Forgot Password?</a>
+        <div class="checkbox-container">
+          <input type="checkbox" id="rememberMe" name="rememberMe">
+          <label for="rememberMe" class="checkbox-label" data-translate="remember_me">Remember Me</label>
+        </div>
+        <p id="signup" data-translate="new_to_organxchange">New to OrganXchange? <a href="/register.html" data-translate="register_now">Register now</a></p>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #32aced;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.nav-heading{
+    text-align: center;
+    font-family:"Bree Serif";
+    font-weight:bold;
+    font-size:40px;
+    color:#ffffffe7;
+}
+.nav-links {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+}
+
+.nav-links li a:hover {
+    background-color: #575757;
+}
+.image{
+    height:85px;
+    width:85px;
+}
+#languageSwitcher::after {
+    content: "▼"; /* Arrow symbol */
+    color: white;
+    padding-left: 5px;
+}
+
+/* Styling for the options */
+#languageSwitcher option {
+    background-color: white; /* Background color for options */
+    color: black; /* Text color for options */
+}

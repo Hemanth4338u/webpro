@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  border:20px;
+}
+
+.image{
+    height:50px;
+    width:45px;
+    display:flex;
+    align-items: flex-start;
+
+    
+}
+
+.navbar {
+  background-color: #32aced; 
+  overflow: hidden;
+  padding: 10px;
+  height:fit-content;
+  display: flex;
+  justify-content: space-around;
+  align-items:fcenter;
+  
+  
+}
+
+.nav-heading {
+  text-align: center;
+  font-family: "Bree Serif";
+  font-size: 20px;
+  color: #ffffffe7;
+}
+.nav-links {
+  list-style: none;
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+.nav-links li {
+  display: inline;
+}
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 14px 20px;
+  display: inline-block;
+}
+
+.nav-links li a:hover {
+  background-color: #575757;
+}
+body {
+  background-image: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),url("/bg_register.png");
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: #32aced;
+  margin: 0;
+  margin-top: 0px;
+}
+.sign-in{
+  height:90vh;
+  width:45vw;
+  background-color:rgba(0, 0, 0, 0.475);
+  z-index:1;
+  border-radius: .5rem;
+  position: absolute;
+  top:60%;
+  left:37%;
+  color: #ffffffe7;
+  font-size: 5vmin;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+  text-align: left;
+  display: flex;
+  margin:30px;
+  
+}
+[type="email number"]{
+  background-color: transparent;
+  height:56px;
+  width: 320px;
+  border: .25px solid grey;
+  border-radius: 5px;
+  display: block;
+  margin-left: 11.5%;
+  font-size: 16px;
+  padding-left: 15px;
+  
+
+}
+[type="password"]{
+  background-color: transparent;
+  height:56px;
+  width: 320px;
+  border: 0.115px solid grey;
+  border-radius: 5px;
+  display: block;
+  margin-left: 11.5%;
+  font-size: 16px;
+  margin-top: 15px;
+  padding-left: 15px;
+  color:white;
+}
+
+[type="button"]{
+  height: 40px;
+  width:320px;
+  background-color:  #32aced;
+  font-size: medium;
+  display: block;
+  margin-left: 11.5%;
+  margin-top: 15px;
+  border:.2px solid  grey;
+  border-radius: 5px;
+}
+[type="button"]:hover{
+  background-color:  #32aced;
+  border-color: #32aced;
+}
+p{
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  color: #467e9bc1;
+  font-size: small;
+
+}
+a{
+  display:flex;
+  justify-content:center;
+  text-decoration: none;
+  margin-top: 0px;
+  margin-left: 5px;
+  font-size: 15px;
+  color: #467e9bc1;
+  
+ }
+ a:hover{
+  text-decoration: underline;
+  color:#32aced;
+
+ }
+
+
+ [type="checkbox"] {
+  height: 17px;
+  width: 17px;
+  cursor: pointer;
+  margin-right: 10px;
+  
+}
+
+.checkbox-label {
+  font-size: 14px;
+  color: #fff;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content:center;
+  color:#32aced;
+  padding-bottom: .2vmin;
+
+}
+
+.checkbox:hover + .checkbox-label {
+  color:#467e9bc1;
+  text-decoration: underline;
+
+}
+
+#signup{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin: none;
+  padding: none;
+  color: #467e9bc1;
+
+}
+input{
+  margin-left:60px;
+  background-color: transparent;
+  border: 1px solid grey;
+  box-shadow: none;
+  padding:18px;
+  border-radius: 5px;
+  font-size: small;
+  width:20rem;
+}

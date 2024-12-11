@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+    crossorigin="anonymous"
+  />
+  <script
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"
+  ></script>
+  <title>About Us</title>
+  <link rel="stylesheet" href="aboutus.css" />
+  <link rel="stylesheet" href="styles.css">
+  <script src="languageSwitcher.js"></script> 
+</head>
+<body>
+    <header>
+      <nav class="navbar">
+        <div>
+          <img src="image.png" class="image" />
+        </div>
+        <div class="nav-heading d-flex flex-row justify-content-center" data-translate="welcome_message">
+          OrganXchange
+        </div>
+        <ul class="nav-links">
+          <li><a href="homepage.html" data-translate="home">Home</a></li>
+          <li><a href="aboutus.html" data-translate="about_us">About</a></li>
+          <li><a href="faqs.html" data-translate="faqs">FAQs</a></li>
+          <li><a href="contact.html" data-translate="contact_us">Contact</a></li>
+          <li><a href="legalinformation.html" data-translate="legal_information">Legal Information</a></li>
+          <li><a href="register.html" data-translate="register">Register</a></li>
+        </ul>
+        <select id="languageSwitcher" onchange="changeLanguage()">
+          <option value="en">English</option>
+          <option value="te">Telugu</option>
+          <option value="hi">Hindi</option>
+          <option value="ta">Tamil</option>
+          <option value="kn">Kannada</option>
+          <option value="ml">Malayalam</option>
+        </select>
+      </nav>
+    </header>
+
+    <section id="statement">
+        <h2 data-translate="our_statement_heading">Our Statement</h2>
+        <p data-translate="our_statement_text">At OrganXchange, we strive to make organ donation accessible and inclusive for everyone. Our website features an interactive eligibility quiz available in multiple languages, allowing users to quickly assess their eligibility based on key factors such as age, general health, chronic illnesses, medical history, lifestyle choices, and blood type.
+
+          Additionally, users can easily change the entire website to their preferred language, ensuring that information is accessible to a broader audience. By providing these resources, we empower individuals to make informed decisions about becoming life-saving donors. Together, we can enhance awareness and understanding of organ donation for all communities.</p>
+    </section>
+
+    <section class="team">
+      <h2 id="meet_text" data-translate="meet_the_team">Meet the Team</h2>
+      <br>
+      <div class="team-members">
+          <div class="team-member">
+              <img src="/chetana.jpg" alt="Member 1">
+              <h3>Palla Chetana Reddy</h3>
+          </div>
+          <div class="team-member">
+              <img src="/nandini.jpg" alt="Member 2">
+              <h3>Nandini Obulagari</h3>
+          </div>
+          <div class="team-member">
+              <img src="/sowmya.jpg" alt="Member 3">
+              <h3>Sowmya Kuncham</h3>
+          </div>
+          <div class="team-member">
+              <img src="/darahas.jpg" alt="Member 4">
+              <h3>Sai Darahas</h3>
+          </div> 
+      </div>
+  </section>
+        <!-- Add more team members as needed -->
+    </section>
+
+    <section id="story">
+        <h2 data-translate="our_story_heading">Our Story</h2>
+        <p data-translate="our_story_text">
+          We are a group of passionate 2nd-year BTech students from Woxsen University, dedicated to promoting the life-saving cause of organ donation. We are a group of passionate 2nd-year BTech students from Woxsen University, dedicated to promoting the life-saving cause of organ donation. At OrganXchange, it’s not just about spreading awareness—it’s about making the decision to donate accessible, impactful, and meaningful. We are committed to creating an inclusive community where everyone can contribute to the life-saving cause of organ donation.
+          Thank you for supporting us on this journey to make organ donation easier to understand and more accessible to all! 
+        </p>
+    </section>
+
+    <footer>
+      <p data-translate="footer_message">&copy; 2024 OrganXchange. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+

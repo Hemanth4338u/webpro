@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <title data-translate="faqs_title">FAQs</title>
+    <link rel="stylesheet" href="faqs.css" />
+    <link rel="stylesheet" href="styles.css">
+    <script src="languageSwitcher.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div>
+              <img src="image.png" class="image" />
+            </div>
+            <div class="nav-heading d-flex flex-row justify-content-center" data-translate="welcome_message">OrganXchange
+            </div>
+            <ul class="nav-links">
+              <li><a href="homepage.html" data-translate="home">Home</a></li>
+              <li><a href="aboutus.html" data-translate="about_us">About</a></li>
+              <li><a href="faqs.html" data-translate="faqs">FAQs</a></li>
+              <li><a href="contact.html" data-translate="contact_us">Contact</a></li>
+              <li><a href="legalinformation.html" data-translate="legal_information">Legal Information</a></li>
+              <li><a href="register.html" data-translate="register">Register</a></li>
+            </ul>
+            <select id="languageSwitcher" onchange="changeLanguage()">
+              <option value="en">English</option>
+              <option value="te">Telugu</option>
+              <option value="hi">Hindi</option>
+              <option value="ta">Tamil</option>
+              <option value="kn">Kannada</option>
+              <option value="ml">Malayalam</option>
+            </select>
+          </nav>
+    </header>
+    
+
+        <div class="faq-section">
+            <h2 data-translate="faqs_section_heading">FAQs</h2>
+            
+
+            <div class="faq-content">
+                <h3 data-translate="organ_donation_heading">1. Organ Donation</h3>
+                <button class="collapsible" data-translate="what_is_an_organ">What is an organ?</button>
+                <div class="content">
+                    <p data-translate="organ_definition">Part of the body that is made up of cells and tissues that perform a specific function like your Heart, Lungs, Kidney, Liver etc.</p>
+                </div>
+
+                <button class="collapsible"  data-translate="organs_that_can_be_donated">What are the organs that can be donated?</button>
+                <div class="content">
+                    <p data-translate="donatable_organs">Organs like the heart, kidneys, lungs, liver, pancreas, and intestines can be donated.</p>
+                </div>
+
+                <button class="collapsible"  data-translate="what_is_organ_donation">What is Organ Donation?</button>
+                <div class="content">
+                    <p data-translate="organ_donation_definition">Organ donation is the act of giving an organ to someone in need of a transplant, either during life or after death.</p>
+                </div>
+
+                <button class="collapsible" data-translate="types_of_organ_donation">What are the different types of Organ Donation?</button>
+                <div class="content">
+                    <p data-translate="organ_donation_types">The different types of organ donation are:
+                        <br><span data-translate="living_donation">Living Donation: This happens when someone generously decides to donate an organ, like a kidney or part of their liver, while they're still alive, often to help a loved one or even a stranger in need.</span>
+                        <br><span data-translate="deceased_donation">Deceased Donation: This occurs when someone's organs are donated after they've passed away, usually after brain death or cardiac death, giving others a chance at life through their selfless gift.</span>
+                    </p>
+                </div>
+                <button class="collapsible" data-translate="age_limit_for_organ_donation">Age limit for Organ Donation?</button>
+                <div class="content">
+                    <p data-translate="organ_donation_age_limit">
+                        
+                    
+                            <br><span data-translate="living_donors">Living donors:</span>  
+                            <br><span data-translate="living_donors_info">The minimum age to donate organs as a living donor is 18 years old. This is because people under 18 are minors and can't legally give their informed consent.</span>
+
+                        <br><span data-translate="deceased_donors">Deceased donors:</span>
+                            <br><span data-translate="kidneys_liver">Kidneys and liver: Up to 70 years</span>
+                            <br><span data-translate="heart_lungs">Heart and lungs: Up to 50 years</span>
+                            <br><span data-translate="pancreas_intestine">Pancreas, intestine: Up to 60-65 years</span>
+                            <br><span data-translate="corneas_skin">Corneas and skin: Up to 100 years</span>
+                    </p>
+                </div>
+                <h4 data-translate="organ_transplantation_heading">2. Organ Transplantation</h3>
+                <button class="collapsible"  data-translate="what_is_organ_transplantation">What is Organ Transplantation?</button>
+                <div class="content">
+                    <p data-translate="organ_transplantation_definition">.Transplantation is the act of surgical removal of an organ from one person and placing it into another person. Transplantation is needed when the recipient's organ has failed or has been damaged due to illness or injury.</p>
+                </div>
+                <button class="collapsible" data-translate="end_stage_diseases"> What are the end stage diseases that can be cured by transplantation?</button>
+                <div class="content">
+                    <p data-translate="end_stage_diseases_list">
+                        
+                        <br><span data-translate="kidney_failure">Kidney Failure: Requires kidney transplant.</span>
+                        <br><span data-translate="liver_disease">Liver Disease: Needs liver transplant.</span>
+                        <br><span data-translate="heart_failure">Heart Failure: May need heart transplant.</span>
+                        <br><span data-translate="lung_disease">Lung Disease: Requires lung transplant.</span>
+                        <br><span data-translate="diabetes_complications">Diabetes Complications: May need pancreas transplant.</span>
+                        <br><span data-translate="intestinal_failure">Intestinal Failure: Requires intestinal transplant.</span>
+                        <br><span data-translate="corneal_diseases">Corneal Diseases: Needs corneal transplant.</span>
+                        <br><span data-translate="bone_marrow_failure">Bone Marrow Failure: May require stem cell transplant.</span>
+                        <br><span data-translate="heart_valve_issues">Heart Valve Issues: May need valve repair/replacement.</span>
+                        <br><span data-translate="severe_burns">Severe Burns: Requires skin grafts.</span>
+                        <br><span data-translate="transplantation_not_cure">Transplantation is not always a cure for the underlying disease, but it can significantly improve the quality of life.</span></p>
+                </div>
+                <h4 data-translate="living_donor_heading">3.Living Donor Related Transplant</h4> 
+                <button class="collapsible" data-translate="living_donor_organ_donation"> What is living donor organ donation?</button>
+                <div class="content">
+                    <p  data-translate="living_donor_definition">Living donor organ donation is when a healthy person donates an organ, like a kidney or part of the liver, to a recipient while still alive.</p>
+                </div>
+                <button class="collapsible" data-translate="living_donor_age_limit"> Is there age limit for living donor?</button>
+                <div class="content">
+                    <p data-translate="living_donor_age_limit_info">Yes, there is some age-limit for living organ donation. Living donation should be done after 18 year of age.</p>
+                </div>
+                <h5  data-translate="deceased_donor_heading"> 4. Deceased Donor Related Transplant</h5>
+                <button class="collapsible" data-translate="deceased_donor_organ_donation"> What is deceased donor organ donation?</button>
+                <div class="content">
+                    <p data-translate="deceased_donor_definition">Deceased donor organ donation is when organs are donated by a person who has passed away, typically after brain death or cardiac death, to save or improve the lives of others in need of transplants..</p>
+                </div>
+                <button class="collapsible" data-translate="brain_stem_death"> Is Brain-stem Death legally accepted as death?</button>
+                <div class="content">
+                    <p data-translate="brain_stem_death_info">Yes, As per the Transplantation of Human Organs Act 1994 Brain Stem Death is legally accepted as death.</p>
+                </div>
+                <button class="collapsible" data-translate="time_delays_question"> What are the reasons for time delays in deceased organ donation?</button>
+                <div class="content">
+                    <p data-translate="time_delays_answer">Time delays in deceased organ donation occur due to medical assessments, obtaining family consent, legal confirmations, finding a matching recipient, organ transport logistics, and surgical team coordination.</p>
+                </div>
+                <button class="collapsible" data-translate="organ_transplant_timing_question"> How quickly should the donated Organs by a deceased donor, be transplanted?</button>
+                <div class="content">
+                    <p data-translate="organ_transplant_timing_answer">Healthy organs should be transplanted as soon as possible. Different organs can be transplanted within different time frame as mentioned below:
+                        <br><span data-translate="heart_timing">Heart (4-6 Hours)</span>
+                        <br><span data-translate="lungs_timing">Lungs (4-8 Hours)</span>
+                        <br><span data-translate="intestine_timing">Intestine (6-10 Hours)</span>
+                        <br><span data-translate="liver_timing">Liver (12-15 Hours)</span>
+                        <br><span data-translate="pancreas_timing">Pancreas (12-24 Hours)</span>
+                        <br><span data-translate="kidneys_timing">Kidneys (24-48 Hours)</span>
+                    </p>
+                </div>   
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <p data-translate="footer_message">&copy; OrganXchange.All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="faqs.JS"></script>
+</body>
+</html>

@@ -1,0 +1,224 @@
+*{
+    margin:0px;
+    padding:0px;
+
+} 
+
+header {
+    background-color:#32aced;
+    width:100%;
+    color: white;
+    text-align: center;
+    align-items: center;
+    /* position:fixed;  */
+    top:0;
+   
+    
+
+}
+.navbar {
+    background-color: #32aced; 
+    overflow: hidden;
+    /* padding: 10px; */
+  }
+  
+  .nav-heading {
+    text-align: center;
+    font-family: "Bree Serif";
+    font-size: 40px;
+    color: #ffffffe7;
+  }
+  .nav-links {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+  }
+  .nav-links li {
+    display: inline;
+  }
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+  }
+  
+  .nav-links li a:hover {
+    background-color: #575757;
+  }
+  .main{
+    margin-top:70px;
+  }
+  .image {
+    height: 85px;
+    width: 85px;
+  }
+  #languageSwitcher{
+    /* position: absolute;
+    right:0px;
+    top:8.5rem; */
+    background-color: transparent;
+    border:1px solid white;
+    border-radius: 5px;
+    color:white;
+    margin-left: 2rem;
+  
+  } 
+  #languageSwitcher:active{
+    border:1px solid white;
+  }
+  #languageSwitcher::after {
+    content: "▼"; /* Arrow symbol */
+    color: white;
+    padding-left: 5px;
+}
+
+/* Styling for the options */
+#languageSwitcher option {
+    background-color: white; /* Background color for options */
+    color: black; /* Text color for options */
+}
+
+
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),url("/bg_register.png");
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #32aced;
+    margin: 0;
+    margin-top: 0px;
+}
+  
+.container {
+    max-width: 600px;
+    margin: auto;
+    background-color:rgba(0, 0, 0, 0.475);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+ h1 {
+    text-align: center;
+    margin-bottom: 20px; 
+} 
+p{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #467e9bc1;
+    font-size: small;
+  
+  }
+  a{
+    display:flex;
+    justify-content:center;
+    text-decoration: none;
+    margin-top: 0px;
+    margin-left: 5px;
+    font-size: 15px;
+    color: #467e9bc1;
+    
+   }
+   a:hover{
+    text-decoration: underline;
+    color:#32aced;
+    font-size: larger;
+  
+   }
+  
+
+.registration-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color:#fff;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column; /* This ensures the label and input are on separate lines */
+    margin-bottom: 15px;
+}
+
+input, select {
+    padding: 10px;
+    border: 1px solid grey;
+    background-color: transparent;
+    border-radius: 4px;
+    width: 100%;  /* Ensures the input takes full width of its container */
+}
+
+button {
+    padding: 7px;
+    background-color:#32aced;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    height: max-content;
+    width: max-content;
+
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+ul {
+    margin: 0;
+    padding-left: 11px;
+}
+
+small {
+    color: #d7d2d2;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+
+
+
+select {
+    /* height: 5vmin; */
+    width: 20vmin;
+    font-size:12px;
+    text-align: center;
+    color: white ;
+    ;
+     /* Sets the select element to take up full width */
+}
+
+select::after {
+    content: "▼"; /* Arrow symbol */
+    color: white;
+    padding-left: 5px;
+}
+#languageSwitcher option {
+    background-color: white; /* Background color for options */
+    color: black; /* Text color for options */
+}
+
+select:active {
+    border: 0.5px solid black;
+}
+
+input {
+    height:7.5vmin;
+    width: 35vmin; /* Ensures all inputs take up full width */
+}
+li{
+    color:rgba(183, 49, 49, 0.875);
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

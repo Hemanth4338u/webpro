@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: #32aced;
+    overflow: hidden;
+     padding: 10px; 
+     position:absolute;
+     top:0px;
+
+  }
+  
+  .nav-heading {
+    text-align: center;
+    font-family: "Bree Serif";
+    font-size: 40px;
+    color: #ffffffe7;
+  }
+  .nav-links {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+  }
+  .nav-links li {
+    display: inline;
+  }
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 20px;
+  
+    display: inline-block;
+  }
+  
+  .nav-links li a:hover {
+    background-color: #575757;
+  }
+  .main{
+    margin-top:70px;
+  }
+  .image {
+    height: 85px;
+    width: 85px;
+  }
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color:rgb(172, 203, 228);
+}
+
+#start-screen {
+    margin-top: 15rem;
+    text-align: center;
+   
+}
+
+#questions {
+    margin-top: 15rem;
+    text-align: center;
+}
+
+#options {
+
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #32aced;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #32abedca;
+}
+
+.hide {
+    display: none;
+}
+
+#feedback {
+    font-size: 24px; /* Larger font size */
+    font-weight: bold;
+    text-align: center; /* Center-align the text */
+    position: absolute; 
+    width: 100%; 
+    margin-top: 15rem;
+}
+
+#feedback.green {
+    color: green;
+}
+
+#feedback.red {
+    color: red;
+}
+
+.question-box {
+    border: 2px solid #32aced; /* Border color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding inside the box */
+    margin: 20px 0; /* Margin around the box */
+    background-color: #f9f9f9; /* Light background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    font-size: 20px; /* Adjust font size if needed */
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+    crossorigin="anonymous"
+  />
+  <script
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"
+  ></script>
+  <title>Legal Information</title>
+  <link rel="stylesheet" href="legalinformation.css" />
+  <link rel="stylesheet" href="styles.css">
+  <script src="languageSwitcher.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div>
+          <img src="image.png" class="image" />
+        </div>
+        <div class="nav-heading d-flex flex-row justify-content-center" data-translate="welcome_message">
+          OrganXchange
+        </div>
+        <ul class="nav-links">
+          <li><a href="homepage.html" data-translate="home">Home</a></li>
+          <li><a href="aboutus.html" data-translate="about_us">About</a></li>
+          <li><a href="faqs.html" data-translate="faqs">FAQs</a></li>
+          <li><a href="contact.html" data-translate="contact_us">Contact</a></li>
+          <li><a href="legalinformation.html" data-translate="legal_information">Legal Information</a></li>
+          <li><a href="register.html" data-translate="register">Register</a></li>
+        </ul>
+        <select id="languageSwitcher" onchange="changeLanguage()">
+          <option value="en">English</option>
+          <option value="te">Telugu</option>
+          <option value="hi">Hindi</option>
+          <option value="ta">Tamil</option>
+          <option value="kn">Kannada</option>
+          <option value="ml">Malayalam</option>
+        </select>
+      </nav>
+
+    <main>
+        <section id="introduction">
+            <h2 data-translate="introduction_heading">Introduction</h2>
+            <p data-translate="introduction_text">Organ donation and transplantation in India are governed by the Transplantation of Human Organs and Tissues Act (THOTA), 1994 (amended in 2011). The act establishes a legal framework to ensure ethical practices, prevent organ trafficking, and promote deceased and living organ donations. It sets guidelines for consent, certification of brain death, and punishment for illegal organ trading.</p>
+        </section>
+
+        <section id="legislation">
+            <h2 data-translate="key_legislation_heading">Key Legislation</h2>
+            <h3 data-translate="thota_heading">1. Transplantation of Human Organs and Tissues Act (THOTA), 1994 (Amended 2011)</h3>
+            <p data-translate="thota_text">The Transplantation of Human Organs and Tissues Act (THOTA), 1994, was created to regulate the removal, storage, and transplantation of human organs and tissues for medical treatment. The 2011 amendments expanded the definition of "near relatives" who can donate organs, introduced paired organ donations (allowing relatives to swap organs between compatible recipients), and provided clearer guidelines for certifying brain death. It also increased penalties for illegal organ trading and violations of the act.</p>
+            <ul>
+                <h4 data-translate="key_provisions_heading">Key provisions:</h4>
+                <li data-translate="section_3"><b>Section 3:</b> Allows the legal removal, storage, and transplantation of human organs for medical purposes.</li>
+                <li data-translate="section_9"><b>Section 9:</b> Prohibits buying and selling of human organs for profit.</li>
+                <li data-translate="section_12"><b>Section 12:</b> Sets up committees that approve organ donations between people who aren't related by family.</li>
+                <li data-translate="section_13"><b>Section 13:</b> Explains the punishments for breaking the law.</li>
+            </ul>
+        </section>
+
+        <section id="safeguards">
+            <h2 data-translate="safeguards_heading">Ethical and Legal Safeguards</h2>
+            <ul>
+                <li data-translate="informed_consent"><b>Informed Consent:</b> Donor or their legal representative must provide explicit consent before any organ is removed.</li>
+                <li data-translate="non_commercialization"><b>Non-commercialization:</b> Organ trading for monetary gain is strictly prohibited.</li>
+                <li data-translate="donor_protection"><b>Donor Protection:</b> Measures prevent exploitation and ensure donor safety.</li>
+                <li data-translate="recipient_rights"><b>Recipient Rights:</b> Organs must be allocated based on medical need, not wealth or influence, as determined by transplant waiting lists.</li>
+                <li data-translate="brain_death_certificate"><b>Brain Death certificate:</b> A certified medical panel must confirm brain death before organ retrieval.</li>
+            </ul>
+        </section>
+
+        <section id="penalties">
+            <h2 data-translate="penalties_heading">Penalties and Enforcement</h2>
+            <p data-translate="penalties_text">Violations of THOTA may lead to:</p>
+            <ul>
+                <li data-translate="imprisonment"><b>Imprisonment:</b> Violators of the act may face imprisonment ranging from 2 to 10 years.</li>
+                <li data-translate="fines"><b>Fines:</b> Penalties include fines from ₹10,000 to ₹20 lakh depending on the severity of the violation.</li>
+                <li data-translate="license_revocation"><b>License Revocation:</b> Medical institutions found violating the law may have their licenses revoked.</li>
+                <li data-translate="commercial_trading_punishment"><b>Commercial Trading Punishment:</b> Engaging in illegal organ trading can lead to severe penalties including both fines and imprisonment.</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; OrganXchange</p>
+    </footer>
+
+    <script src="/legal.js"></script>
+</body>
+
+</html>
